@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.set('port', (process.env.PORT || 9001));
 
 app.get('/', function(req, res) {
-	res.send('yo yo yo what's tha scenario');
+	res.send('yo yo yo what is tha scenario');
 });
 
 app.listen(app.get('port'), function() {
