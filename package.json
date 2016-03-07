@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/doctorparadox/slacknode/issues"
   },
-  "homepage": "https://github.com/doctorparadox/slacknode#readme"
+  "homepage": "https://github.com/doctorparadox/slacknode#readme",
+  "dependencies": {
+	"express": "4.13.3",
+	"ejs": "~1.0.0"
+  }
 }
